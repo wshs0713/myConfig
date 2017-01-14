@@ -1,5 +1,5 @@
-syntax on
 " Environment
+syntax on
 set enc=utf8
 set t_Co=256
 set background=dark
@@ -23,6 +23,7 @@ set mouse=a
 set autoindent
 set smartindent
 
+" Autocomplete words
 :inoremap ( ()<ESC>i
 :inoremap { {<CR>}<ESC>O
 :inoremap [ []<ESC>i
@@ -42,9 +43,11 @@ highlight CursorLineNR cterm=bold ctermbg=235 ctermfg=Blue
 
 " vim-plug
 call plug#begin("~/.vim/plugged")
+
 " Interface
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
 call plug#end()
 
 " airline
@@ -53,11 +56,23 @@ set laststatus=2
 
 " enable powerline-fonts
 let g:airline_powerline_fonts = 1
+
+" set theme
 let g:airline_theme='lucius'
 
 if !exists('g:airline_symbols')
 	let g:airline_symbols = { }
 endif
+
+let g:airline_left_sep =''
+let g:airline_left_alt_sep =''
+let g:airline_right_sep =''
+let g:airline_right_alt_sep =''
+let g:airline_symbols.branch =''
+let g:airline_symbols.readonly =''
+let g:airline_symbols.linenr =''
+let g:airline_symbols.maxlinenr = ''
+let g:airline_symbols.whitespace = 'Ξ'
 
 " unicode symbols
 " let g:airline_left_sep = '»'
@@ -73,17 +88,7 @@ endif
 " let g:airline_symbols.paste = '∥'
 " let g:airline_symbols.whitespace = 'Ξ''
 
-let g:airline_left_sep =''
-let g:airline_left_alt_sep =''
-let g:airline_right_sep =''
-let g:airline_right_alt_sep =''
-let g:airline_symbols.branch =''
-let g:airline_symbols.readonly =''
-let g:airline_symbols.linenr =''
-let g:airline_symbols.maxlinenr = ''
-let g:airline_symbols.whitespace = 'Ξ'
-
-"tabline
+" tabline
 " enable tabline
 " let g:airline#extensions#tabline#enabled = 1
 " set left separator
