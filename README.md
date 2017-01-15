@@ -2,15 +2,15 @@
 These are my config files, include vimrc and tmux config.
 
 ## vimrc
-Include some awesome plugin and convenient settings.
+Include some awesome plugins and convenient settings.
 + Setup
 	+ Download vim-plug
 	```
-	curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+	% curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	```
 	+ Install plugins
 	```
-	vim +PlugInstall
+	% vim +PlugInstall
 	```
 + Plugins
 	+ Interface
@@ -20,7 +20,7 @@ Include some awesome plugin and convenient settings.
 ## tmux config
 Reference:[tmux-themepack](https://github.com/jimeh/tmux-themepack/blob/master/powerline/default/cyan.tmuxtheme)
 + Setup
-	+ Set .bashrc
+	+ Modify .bashrc
 	```
 	alias tmux="TERM=screen-256color-bce tmux"
 	```
@@ -34,9 +34,9 @@ Reference:[tmux-themepack](https://github.com/jimeh/tmux-themepack/blob/master/p
 	+ Copy and paste 
 		```
 		C-a + ESC	# enter copy mode
-		# move cursor to the start/end of the desired text string
+					# move cursor to the start/end of the desired text string
 		v			# to activate highlighting
-		# move cursor to cover the requisite string
+					# move cursor to cover the requisite string
 		y			# to capture the sting
 		q			# exit copy mode
 		C-a + p		# paste the text
