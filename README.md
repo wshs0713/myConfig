@@ -4,8 +4,8 @@ These are my config files, include vimrc and tmux config.
 ## vimrc
 Include some awesome plugins and convenient settings.
 + Screenshot
-![vim screenshot](http://imgur.com/a/A7Mev)
-  
+![vim screenshot](https://i.imgur.com/ZPO1bjX.png)
+
 + Setup
 	+ Download vim-plug
 	```shell
@@ -27,7 +27,7 @@ Include some awesome plugins and convenient settings.
 ## tmux config
 Reference: [tmux-themepack](https://github.com/jimeh/tmux-themepack/blob/master/powerline/default/cyan.tmuxtheme)
 + Screenshot
-![tmux screenshot](http://imgur.com/a/fhfF6)  
+![tmux screenshot](https://i.imgur.com/QHZYKLl.png)
 
 + Setup
 	+ Modify .bashrc
