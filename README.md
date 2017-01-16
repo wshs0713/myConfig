@@ -4,20 +4,21 @@ These are my config files, include vimrc and tmux config.
 ## vimrc
 Include some awesome plugins and convenient settings.
 + Screenshot
-
+![vim screenshot](http://imgur.com/JBbc8zy)
+  
 + Setup
-	+ Download vim-plug
-	```shell
-	% curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-	```
-	+ Download my .vimrc, put under home directory.
-	```shell
-	% git clone https://github.com/WuSzHs/myConfig.git
-	```
-	+ Install plugins
-	```shell
-	% vim +PlugInstall
-	```
+	+ Download vim-plug  
+		```shell
+		% curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+		```
+	+ Download my .vimrc, put under home directory.  
+		```shell
+		% git clone https://github.com/WuSzHs/myConfig.git
+		```
+	+ Install plugins  
+		```shell
+		% vim +PlugInstall
+		```
 + Plugins
 	+ Interface
 		+ [vim-airline](https://github.com/vim-airline/vim-airline)
@@ -26,16 +27,17 @@ Include some awesome plugins and convenient settings.
 ## tmux config
 Reference: [tmux-themepack](https://github.com/jimeh/tmux-themepack/blob/master/powerline/default/cyan.tmuxtheme)
 + Screenshot
+![tmux screenshot](http://imgur.com/MW31ZRI)  
 
 + Setup
-	+ Modify .bashrc
-	```bash
-	alias tmux="TERM=screen-256color-bce tmux"
-	```
-	+ Download my .tmux.conf, put under home directory.
-	```shell
-	% git clone https://github.com/WuSzHs/myConfig.git
-	```
+	+ Modify .bashrc  
+		```bash
+		alias tmux="TERM=screen-256color-bce tmux"
+		```
+	+ Download my .tmux.conf, put under home directory.  
+		```shell
+		% git clone https://github.com/WuSzHs/myConfig.git
+		```
 + Usage
 	+ Prefix: Ctrl + a (C-a)
 	+ Reload tmux config: Alt + r
