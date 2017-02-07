@@ -46,7 +46,7 @@ alias tmux="TERM=screen-256color-bce tmux"
 	+ select pane
 	+ resize pane
 + Copy and paste 
-	```
+	```shell
 	C-a + ESC	# enter copy mode
 				# move cursor to the start/end of the desired text string
 	v			# to activate highlighting
