@@ -1,6 +1,9 @@
 ## Config file
-These are my config files, include vimrc and tmux config.
-
+These are my config files, include vimrc and tmux config.  
++ Download  
+```shell
+git clone https://github.com/WuSzHs/myConfig.git
+```
 ## vimrc
 Include some awesome plugins and convenient settings.
 ### Screenshot
@@ -11,9 +14,9 @@ Include some awesome plugins and convenient settings.
 ```shell
 % curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-+ Download my .vimrc, put under home directory.
++ Copy .vimrc to your home directory.
 ```shell
-% git clone https://github.com/WuSzHs/myConfig.git
+% cp .vimrc ~
 ```
 + Install plugin
 ```shell
@@ -30,13 +33,10 @@ Reference: [tmux-themepack](https://github.com/jimeh/tmux-themepack/blob/master/
 ![tmux screenshot](https://i.imgur.com/QHZYKLl.png)
 
 ### Setup
-+ Modify .bashrc
-```bash
-alias tmux="TERM=screen-256color-bce tmux"
-```
-+ Download my .tmux.conf, put under home directory.
++ Copy .bashrc and .tmux.conf files to your home directory.
 ```shell
-% git clone https://github.com/WuSzHs/myConfig.git
+% cp .bashrc ~
+% cp .tmux.conf ~
 ```
 ### Usage
 + Prefix: Ctrl + a (C-a)
