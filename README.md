@@ -9,7 +9,7 @@ These are my config files, include:
 - Download  
 
 ```shell
-$ git clone https://github.com/WuSzHs/myConfig.git
+$ git clone https://github.com/wshs0713/myConfig.git
 ```
 
 - setup
