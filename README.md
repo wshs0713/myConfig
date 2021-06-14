@@ -61,22 +61,22 @@ q               # exit copy mode
 ```
 
 - Session
-  - `<prefix>` + d: detach current session
-  - `<prefix>` + $: rename session
-  - `<prefix>` + exit: close session
-  - Ctrl + f: find session name, and change to that session
+  - `<prefix>` + d: Detach current session
+  - `<prefix>` + $: Rename session
+  - Ctrl + f: Find the session name and switch to the specified session
 - Window
-  - `<prefix>` + c: create new window
-  - `<prefix>` + p: change to previous window
-  - `<prefix>` + n: change to next window
-  - `<prefix>` + 0~9: change to specified window
-  - `<prefix>` + w: list windows
-  - `<prefix>` + ,: rename window
-  - `<prefix>` + .: renumber window
-  - `<prefix>` + &: close window
+  - `<prefix>` + c: Create new window
+  - `<prefix>` + p: Change to previous window
+  - `<prefix>` + n: Change to next window
+  - `<prefix>` + 0 ~ 9: Change to the specified window
+  - `<prefix>` + w: List all windows
+  - `<prefix>` + ,: Rename the current window
+  - `<prefix>` + .: Renumber the current window
+  - `<prefix>` + &: Close the current window
+  - `<prefix>` + f: Find the window name and switch to the specified window
 - Pane
-  - `<prefix>` + t: clock mode
-  - `<prefix>` + x: close current pane.
-  - `<prefix>` + %: vertical split the window
-  - `<prefix>` + ": horizontal split the window
-  - Alt + arrow keys: move between panes
+  - `<prefix>` + t: Clock mode
+  - `<prefix>` + x: Close the current pane
+  - `<prefix>` + %: Vertical split the window
+  - `<prefix>` + ": Horizontal split the window
+  - `<prefix>` + arrow keys: move between panes
