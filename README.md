@@ -30,7 +30,7 @@ $ ./setup.sh
 
 - Interface
   - [vim-airline](https://github.com/vim-airline/vim-airline)
-  - [vim-airline-themes] (https://github.com/vim-airline/vim-airline-themes)
+  - [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
 
 ## tmux config
 
