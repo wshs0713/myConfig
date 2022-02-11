@@ -102,4 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias arm="env /usr/bin/arch -arm64 /bin/zsh"
 alias intel="env /usr/bin/arch -x86_64 /bin/zsh"
+alias ls='ls --color'
+alias ll='ls -alh --color'
 
