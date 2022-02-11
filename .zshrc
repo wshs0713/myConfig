@@ -100,3 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias arm="env /usr/bin/arch -arm64 /bin/zsh"
+alias intel="env /usr/bin/arch -x86_64 /bin/zsh"
+
