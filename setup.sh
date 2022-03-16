@@ -1,5 +1,8 @@
 # !/bin/bash/
 
+# Download oh-my-zsh plugin
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 cp .tmux.conf ~
 cp .vimrc ~
 cp .gitconfig ~

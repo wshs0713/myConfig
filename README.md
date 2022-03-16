@@ -5,7 +5,7 @@ Including:
 - vim config
 - tmux config
 - git config
-- bashrc / cshrc
+- bashrc / cshrc / zshrc
 
 ## Download  
 
