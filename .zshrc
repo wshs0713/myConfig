@@ -84,7 +84,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -108,4 +108,9 @@ alias arm="env /usr/bin/arch -arm64 /bin/zsh"
 alias intel="env /usr/bin/arch -x86_64 /bin/zsh"
 alias ls='ls --color'
 alias ll='ls -alh --color'
+
+export GOPATH="$HOME/go"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home"
+export ANT_HOME="$HOME/Documents/workspace/tpt-sms/vendor/mgmt/tools/ant/apache-ant-1.9.6"
+export PATH="/opt/homebrew/opt/python@3.10/bin:/usr/local/go/bin:$GOPATH/bin:$ANT_HOME/bin:$PATH"
 
