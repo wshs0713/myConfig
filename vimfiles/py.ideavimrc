@@ -1,0 +1,10 @@
+Plugin 'vim-indent-object'
+nmap zso :source /Users/judy_wu/vimfiles/py.ideavimrc <CR>
+:set rnu
+:set surround
+:set easymotion
+:set visualbell
+:set exchange
+:set matchit
+nmap z; $a;<Esc>
+imap z; <Esc>$a;
