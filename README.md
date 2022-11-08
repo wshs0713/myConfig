@@ -1,8 +1,12 @@
 # Config files
 
-Including:
+Includes:
 
 - vim config
+- vimidea config
+  - Java
+  - Go
+  - Python
 - tmux config
 - git config
 - bashrc / cshrc / zshrc
@@ -10,7 +14,7 @@ Including:
 ## Download  
 
 ```bash
-$ git clone https://github.com/wshs0713/myConfig.git
+$ git clone git@github.com:wshs0713/myConfig.git
 ```
 
 ## Setup
@@ -19,6 +23,10 @@ $ git clone https://github.com/wshs0713/myConfig.git
 $ cd myConfig/
 $ ./setup.sh
 ```
+
+## Vim Idea
+
+- Make sure the file path in `.vimidearc` and `vimfiles` are correct.
 
 ## vimrc
 
@@ -80,3 +88,4 @@ q               # exit copy mode
   - `<prefix>` + %: Vertical split the window
   - `<prefix>` + ": Horizontal split the window
   - `<prefix>` + arrow keys: move between panes
+
