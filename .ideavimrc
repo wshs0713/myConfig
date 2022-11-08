@@ -1,0 +1,5 @@
+nmap zij :source /Users/judy_wu/vimfiles/java.ideavimrc <CR>
+nmap zpc :source /Users/judy_wu/vimfiles/py.ideavimrc <CR>
+nmap zgo :source /Users/judy_wu/vimfiles/go.ideavimrc <CR>
+
+nmap <A-L> :set rnu!<CR>

@@ -1,0 +1,7 @@
+nmap zso :source /Users/judy_wu/vimfiles/java.ideavimrc <CR>
+
+:set surround
+:set rnu
+:set easymotion
+nmap z; A;<Esc>
+imap z; <Esc>A;
